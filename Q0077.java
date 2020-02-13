@@ -1,4 +1,16 @@
 // https://leetcode.com/problems/combinations/
+
+/*
+Note:
+
+1) in a recursion, future number > current number
+
+2) termination criteria: either list size == number limit or current number > end number
+
+
+*/
+
+
 class Solution {
     
     private List<List<Integer>> result = new ArrayList<List<Integer>>();
